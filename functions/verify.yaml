@@ -1,0 +1,16 @@
+id: Qmbz4SjdSzJ3qgFUB4TktoxPQSHEb9NNNd4Q1LVY1gx9Po
+description: Returns pong to a ping over http
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /verify
+domains:
+    - tafhub
+includes:
+    - /functions/verify.go
+execution:
+    timeout: 20s
+    memory: 20MB
+    call: verify
