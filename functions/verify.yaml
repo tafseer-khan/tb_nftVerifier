@@ -7,7 +7,7 @@ trigger:
     paths:
         - /verify
 domains:
-    - tafhub
+    - nftth
 includes:
     - /functions/verify.go
 execution:
