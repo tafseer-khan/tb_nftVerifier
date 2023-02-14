@@ -3,7 +3,6 @@ description: ""
 tags: []
 domains:
     - nftth
-libraries: []
 source:
     paths:
         - /

@@ -1,6 +1,7 @@
 id: Qmbz4SjdSzJ3qgFUB4TktoxPQSHEb9NNNd4Q1LVY1gx9Po
 description: ""
 tags: []
+source: .
 trigger:
     type: https
     method: GET
@@ -8,8 +9,6 @@ trigger:
         - /verify
 domains:
     - nftth
-includes:
-    - /functions/verify.go
 execution:
     timeout: 20s
     memory: 20MB
