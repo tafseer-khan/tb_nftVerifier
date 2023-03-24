@@ -7,7 +7,6 @@ trigger:
     method: GET
     paths:
         - /ping
-        - /zing
 domains:
     - nftth
 execution:
